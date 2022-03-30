@@ -3,17 +3,18 @@
 [![License](https://img.shields.io/github/license/mspronesti/pypackage-template)](https://opensource.org/licenses/Apache-2.0)
 
 **Plug-and-play** cookiecutter template for creating a new Python library (or simply a tested, documented
-and deployable package).
+and deployable package), written with easy-of-use and customizability in mind.
 
 ## TL; DR
 
-All you got to do is clicking on the "Use this template" green button and and you are going to end up with a complete Python
-package named after your project.
+All you got to do is clicking on the "Use this template" green button and you will end up with a complete Python package named after your project.
+
+![Demo](https://user-images.githubusercontent.com/44113430/160943074-0626a2ce-18ee-43c6-bb27-a6996f5eae68.gif)
 
 ## Motivation
 
 There are plenty of cookiecutter templates out there, but all of them require configuring your package by hand,
-installing cookiecutter, the dependencies, generating the template and so on. 
+installing cookiecutter, the dependencies, generating the project, following the prompt and so on. 
 
 This template attempts to address "the problem", aiming at providing a plug-and-play solution for lazy people like me.
 
@@ -22,6 +23,7 @@ This template attempts to address "the problem", aiming at providing a plug-and-
 * Github workflows for continuous integration testing
 * [Sphinx](https://www.sphinx-doc.org/en/master/) docs ready for generation, further simplified through a Makefile
 * Auto-release to [PyPI](https://pypi.org/) when you push a new tag to master, with **dynamic update of the version/tag number** (no need to update any file!)
+
 * some common style-guidelines already setup for usage
 
 
@@ -49,3 +51,5 @@ Make doc
 ```
 to produce the documentation.
 
+## Aknowledgements
+The `setup.yml` workflow is adapted (mostly borred) from [this repositoy](https://github.com/simonw/python-lib-template-repository), but the template itself belongs to me.
