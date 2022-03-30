@@ -1,0 +1,6 @@
+[run]
+source = {{ cookiecutter.hyphenated }}
+parallel = True
+omit =
+    # omit version file
+    */version.py
