@@ -32,7 +32,7 @@ help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  all                to clean, check the style guidelines and run the test suite"
 	@echo "  flake              to check overall code style guidelines "
-	@echo "  mypy               to check using mypy "
+	@echo "  mypy               to statically check types using mypy "
 	@echo "  install            to install {{ cookiecutter.hyphenated }}"
 	@echo "  test               to run the test suite for all tested packages"
 	@echo "  test-parallel      to run the test suite for all tested packages in parallel"

@@ -1,4 +1,4 @@
-"""Qlearnkit version information"""
+"""{{ cookiecutter.hyphenated }} version information"""
 
 try:
     from importlib import metadata

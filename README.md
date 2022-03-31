@@ -52,4 +52,4 @@ Make doc
 to produce the documentation.
 
 ## Aknowledgements
-The `setup.yml` workflow is adapted (mostly borred) from [this repositoy](https://github.com/simonw/python-lib-template-repository), but the template itself belongs to me.
+The `setup.yml` workflow is adapted (mostly borrowed) from [this repository](https://github.com/simonw/python-lib-template-repository), but the template itself belongs to me.
