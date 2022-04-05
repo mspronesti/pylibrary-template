@@ -14,7 +14,7 @@ All you got to do is clicking on the "Use this template" green button and you wi
 ## Motivation
 
 There are plenty of cookiecutter templates out there, but all of them require configuring your package by hand,
-installing cookiecutter, the dependencies, generating the project, following the prompt and so on. 
+installing cookiecutter, the dependencies, generating the project, following the prompt and so on.
 
 This template attempts to address "the problem", aiming at providing a plug-and-play solution for lazy people like me.
 
@@ -31,9 +31,9 @@ This template attempts to address "the problem", aiming at providing a plug-and-
 
 To use this action, you need to create a PyPI account and an API token against that account.
 
-Once you did, add that token to your repository as a GitHub secret called `PYPI_TOKEN` (don't change this name!). 
+Once you did, add that token to your repository as a GitHub secret called `PYPI_TOKEN` (don't change this name!).
 
-under `Settings > Secrets > New Secret` and you're done. 
+under `Settings > Secrets > New Secret` and you're done.
 
 From now on, any time you create a new Release or push a new tag on GitHub, the action will trigger, building your package and pushing it to PyPI.
 
@@ -41,13 +41,13 @@ The version number is gonna be updated automatically and only depends on the num
 
 ## Documentation
 
-Run 
+Run
 ```bash
-Make apidoc
+make apidoc
 ```
 to produce the `rst` files and
 ```bash
-Make doc
+make doc
 ```
 to produce the documentation.
 
